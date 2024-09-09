@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Prueba {
+    public static void main(String[] args) {
+         
+       // Crear un objeto Scanner
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Porfavor escribe un numero");
+        int numero = scanner.nextInt();  
+      
+        Syntem.out.print("favor de ingresar un valor")
+          int num2 = scanner.nextInt();
+      
+    }
+}

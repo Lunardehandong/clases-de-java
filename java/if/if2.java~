@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class if2 {
+    public static void main(String[] args) {
+      
+       // Crear un objeto Scanner
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Porfavor escribe tu calificacion")
+        int calificacion= = scanner.nextInt();  
+        
+        if(calificacion >= 100 && calificacion<=90){
+          System.out.print("Excelente")
+        }else if(calificacion >= 89 && calificacion<=70){
+             System.out.print("Buena")
+          }
+          else if(calificacion >= 69 && calificacion<=50){
+             System.out.print("Regular")
+          }else{
+             System.out.prinl("Insuficiente")}
+        
+    }}

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class edades {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa un número del 1 al 12 para el mes: ");
+        int edad = scanner.nextInt();
+        
+        switch (edad) {
+            case 1:
+              if(edad <= 12){
+               System.out.println("Es un niño.");
+            }
+                break;
+            case 2:
+                 if(edad <= 17){
+               System.out.println("Es un adolecente.");
+            }
+            case 3:
+                 if(edad <= 64){
+               System.out.println("Es un adulto.");
+            }
+                break;
+            case 4:
+                 if(edad >= 64){
+               System.out.println("Es un anciano.");
+            }
+                break;
+            default:
+                System.out.println("rango no válido.");
+        }
+    }
+}

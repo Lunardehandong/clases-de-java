@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Dificultad {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa un número (1-7) para el día de la semana: ");
+        int dia = scanner.nextInt();
+        
+        switch (dia) {
+            case 1:
+                System.out.println("Lunes");
+                break;
+            case 2:
+                System.out.println("Martes");
+                break;
+            case 3:
+                System.out.println("Miércoles");
+                break;
+            default:
+                System.out.println("Número no válido.");
+        }
+    }
+}
