@@ -1,0 +1,13 @@
+public class tareafor {
+  public static void main(String[] args) {
+  // blucle de numeros impares
+    for (int i=1; i<=30;++i){
+      if(i%3==0){
+        System.out.printIn("numero:" +i);
+  
+  
+      }
+    }
+  
+  }
+}
