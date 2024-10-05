@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Verificarnumeros {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Ingresa un número: ");
+        int numero = scanner.nextInt();
+        
+        System.out.print("Ingresa otro número: ");
+        int num2 = scanner.nextInt();
+        
+        // Usamos el operador % para verificar si el número es par
+        boolean esmultiplo = (numero * num2 % == 0);
+        
+        if (esPar) {
+            System.out.println("El número es par.");
+        } else {
+            System.out.println("El número es impar.");
+        }
+    }
+}
