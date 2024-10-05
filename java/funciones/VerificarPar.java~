@@ -1,0 +1,17 @@
+public class VerificarPar {
+    public static void main(String[] args) {
+        int numero = 8;
+        boolean esPar = esNumeroPar(numero); // Llamada a la función
+        
+        if (esPar) {
+            System.out.println("El número es par.");
+        } else {
+            System.out.println("El número es impar.");
+        }
+    }
+    
+    // Función que verifica si un número es par
+    public static boolean esNumeroPar(int numero) {
+        return numero % 2 == 0;
+    }
+}

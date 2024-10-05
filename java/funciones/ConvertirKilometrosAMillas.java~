@@ -1,0 +1,8 @@
+import java.util.Scanner;
+
+public class ConvertirKilometrosAMillas {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa la distancia en kilómetros: ");
+        double kilometros = scanner.nextDouble();
