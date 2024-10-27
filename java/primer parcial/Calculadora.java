@@ -6,43 +6,43 @@ public class Calculadora {
         int opcion;
 
         do {
-            // Mostrar el menú
-            System.out.println("---- Menú Calculadora ----");
+            // Mostrar el menï¿½
+            System.out.println("---- Menu ----");
             System.out.println("1. Sumar");
             System.out.println("2. Restar");
             System.out.println("3. Multiplicar");
             System.out.println("4. Dividir");
             System.out.println("5. Salir");
-            System.out.print("Elige una opción: ");
+            System.out.print("Elige una opciï¿½n: ");
             opcion = sc.nextInt();
 
-            // Evaluar la opción con switch
+            // Evaluar la opciï¿½n con switch
             switch (opcion) {
                 case 1:
                    
                     break;
 
                 case 2:
-                    // Restar
+                    
                    
                     break;
 
                 case 3:
-                    // Multiplicar
+                    
                     
                     break;
 
                 case 4:
-                    // Dividir
+                    
                     
                     break;
 
                 case 5:
-                    System.out.println("Saliendo de la calculadora...");
+                    System.out.println("Saliendo del codigo");
                     break;
 
                 default:
-                    System.out.println("Opción no válida. Inténtalo de nuevo.");
+                    System.out.println("Opciï¿½n no vï¿½lida. Intï¿½ntalo de nuevo.");
                     break;
             }
 
@@ -50,6 +50,6 @@ public class Calculadora {
 
         } while (opcion != 5);
 
-        System.out.println("¡Gracias por usar la calculadora!");
+        System.out.println("ï¿½Gracias por usar el codigo!");
     }
 }
