@@ -1,6 +1,6 @@
 public class EjemploArreglo {
     public static void main(String[] args) {
-        // Declaración y creación de un arreglo de enteros
+        // Declaración y creación de un arreglo de ente21ros
         //Los arreglos contienen indices que comienzan desde el cero 
         int[] numeros = {10, 20, 30, 40, 50};
 

@@ -1,0 +1,13 @@
+ID: 01
+Nombre: Diego
+Edad: 22
+Fecha de Nacimiento: 16/09/2002
+
+Respuestas de la encuesta:
+- Dinamity
+- 2018
+- Jimin|
+- nop
+- 50/50 algunas buenas otras no tanto
+
+
